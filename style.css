@@ -1,0 +1,108 @@
+/* Poppins - Titles / Nunito Sans - Paragraphs*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* ------------- COLORS ----------------
+#a47864, #f7f5f1, #2d160c, links: #ed6132
+*/
+
+/* ---------------- FONT SIZE ---------------
+h1: 32px - h2: 24px - p: 16px
+*/
+
+
+/* ----------- GENERIC DESIGN --------------- */
+body{
+  background-color: #f7f5f1;
+  line-height: 24px;
+  font-family: 'nunito sans', sans-serif;
+  font-size: 16px;
+  color: #2d160c;
+}
+
+h1, h2, h3{
+  font-family: 'poppins', sans-serif;
+  color: #a47864;
+}
+
+h1{
+  line-height: 48px;
+  font-size: 32px;
+}
+
+h2{
+  line-height: 36px;
+  font-size: 24px;
+  }
+
+  a{
+  text-decoration: none;
+  color: #ed6132;
+  transition: 0.3s;
+ }
+
+ a:hover{
+  color: #f47b53;
+}
+
+/* ------------- CUSTOM DESIGN ------------------ */
+.container {
+  width: 700px;   /* Définit la largeur */
+  margin: 50px auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.img-circle {
+  border-radius: 50%;
+ }
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 20px 0px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  border-radius: 4px;
+}
+
+.card-white li a{
+  font-size: 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.btn-orange{
+  background-color: #ed6132;
+  color: white;
+  padding: 12px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-orange:hover{
+  color: white;
+  background-color: #f47b53;
+}
+
+@media (max-width: 960px){
+  .container {width: 600px;}
+}
+
+@media (max-width: 720px){
+  .container {width: 500px;}
+}
+
+@media (max-width: 540px){
+  .container {width: 300px}
+}
